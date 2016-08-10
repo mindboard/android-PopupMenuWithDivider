@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="1dp"
+    android:paddingTop="1dp"
+    android:paddingRight="1dp"
+    android:paddingBottom="1dp"
+    android:background="@drawable/popup_border" 
+    android:orientation="vertical" >
+
+    <com.mindboardapps.android.example.popupmenuwithdivider.MenuButton
+        android:id="@+id/action_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New"/>
+
+    <com.mindboardapps.android.example.popupmenuwithdivider.MenuButton
+        android:id="@+id/action_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"/>
+
+	<!-- divider -->
+    <com.mindboardapps.android.example.popupmenuwithdivider.DividerView
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:background="#00000000"/>
+
+    <com.mindboardapps.android.example.popupmenuwithdivider.MenuButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+    <com.mindboardapps.android.example.popupmenuwithdivider.MenuButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"/>
+
+	<!-- divider -->
+    <com.mindboardapps.android.example.popupmenuwithdivider.DividerView
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:background="#00000000"/>
+
+    <com.mindboardapps.android.example.popupmenuwithdivider.MenuButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"/>
+
+</LinearLayout>
