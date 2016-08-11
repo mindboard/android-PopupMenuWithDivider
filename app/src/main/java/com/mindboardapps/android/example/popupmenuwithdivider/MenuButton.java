@@ -15,7 +15,8 @@ public class MenuButton extends Button {
 
         float density =  getContext().getResources().getDisplayMetrics().density;
 
-        setBackground(new ColorDrawable(Color.WHITE));
+        //setBackground(new ColorDrawable(Color.WHITE));
+        setBackground(new ColorDrawable(Color.TRANSPARENT));
         setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
 
         int padding = (int) (25*density);
