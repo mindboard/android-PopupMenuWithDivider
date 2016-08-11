@@ -8,7 +8,7 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.widget.Button;
 
-class MenuButton extends Button {
+public class MenuButton extends Button {
 
     public MenuButton(Context ctx, AttributeSet attributeSet) {
         super(ctx, attributeSet);
