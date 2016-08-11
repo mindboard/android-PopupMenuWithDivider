@@ -28,9 +28,11 @@ public class MenuButton extends Button {
         setPadding(left,top,right,bottom);
     }
 
+	/*
     @Override
     public boolean performClick() {
         playSoundEffect(SoundEffectConstants.CLICK);
         return super.performClick();
     }
+	*/
 }
