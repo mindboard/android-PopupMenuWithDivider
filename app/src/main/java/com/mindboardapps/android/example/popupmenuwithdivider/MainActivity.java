@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         if( popupLayout==null ){
             popupLayout = getLayoutInflater().inflate(R.layout.popup_menu, null);
 
-
             Button newButton = (Button)popupLayout.findViewById(R.id.action_new);
 
             newButton.setOnClickListener(new View.OnClickListener() {
