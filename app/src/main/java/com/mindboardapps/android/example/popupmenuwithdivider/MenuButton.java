@@ -8,6 +8,10 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Copyright © 2017 tomoaki oshima All Rights Reserved.
+ */
+
 public class MenuButton extends Button {
 
     public MenuButton(Context ctx, AttributeSet attributeSet) {
@@ -15,7 +19,6 @@ public class MenuButton extends Button {
 
         float density =  getContext().getResources().getDisplayMetrics().density;
 
-        //setBackground(new ColorDrawable(Color.WHITE));
         setBackground(new ColorDrawable(Color.TRANSPARENT));
         setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
 
@@ -28,11 +31,11 @@ public class MenuButton extends Button {
         setPadding(left,top,right,bottom);
     }
 
-	/*
+    /*
     @Override
     public boolean performClick() {
         playSoundEffect(SoundEffectConstants.CLICK);
         return super.performClick();
     }
-	*/
+    */
 }

@@ -8,6 +8,10 @@ import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * Copyright © 2017 tomoaki oshima All Rights Reserved.
+ */
+
 public class DividerView extends View {
 
     private final Paint paint;

@@ -12,6 +12,10 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.PopupWindow;
 
+/**
+ * Copyright © 2017 tomoaki oshima All Rights Reserved.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
